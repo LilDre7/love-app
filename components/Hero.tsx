@@ -15,7 +15,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <h2 className="text-5xl md:text-7xl font-display font-bold mb-6 text-shadow">
-            Nuestro Amor Eterno
+            Nuestro Amor Eterno Sil & Varo
           </h2>
           <p className="text-xl md:text-2xl mb-8">
             Cada momento contigo es un tesoro, cada sonrisa un regalo. 
