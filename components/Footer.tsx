@@ -20,7 +20,7 @@ const Footer = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          "Por siempre y para siempre, eres mi todo"
+          &quot;Por siempre y para siempre, eres mi todo&quot;
         </motion.p>
       </div>
     </footer>
