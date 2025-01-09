@@ -56,10 +56,11 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-	  backgroundImage: {
-        'hero-pattern': "url('/image/bg.jpg')",
-        'footer-texture': "url('/img/footer-texture.png')"
-      }
+      backgroundImage: {
+        "hero-pattern": "url('/image/bg2.jpg')",
+        "why-love": "url('/image/bg7.jpg')",
+        "love-note": "url('/image/bg9.jpg')",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

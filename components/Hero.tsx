@@ -5,7 +5,7 @@ const Hero = () => {
 
 
   return (
-    <section id="inicio" className="bg-hero-pattern bg-contain relative h-screen flex items-center overflow-hidden">
+    <section id="inicio" className="bg-hero-pattern bg-cover bg-center sm:bg-contain relative h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
       <div className="container mx-auto px-6 relative z-20">
         <motion.div 

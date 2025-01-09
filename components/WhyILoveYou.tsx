@@ -12,7 +12,7 @@ const reasons = [
 
 const WhyILoveYou = () => {
   return (
-    <section className="py-20 bg-secondary bg-opacity-10">
+    <section className="py-20 bg-why-love bg-cover bg-center sm:bg-contain sm:bg-center bg-opacity-10">
       <div className="container mx-auto px-6">
         <motion.h2 
           className="text-4xl md:text-5xl font-display font-bold text-center mb-12 text-primary"
