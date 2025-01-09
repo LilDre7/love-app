@@ -19,7 +19,7 @@ const Header = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Nuestro Amor
+          OurLOVE
         </motion.h1>
         <div className="md:hidden">
           <motion.button
@@ -66,9 +66,7 @@ const Header = () => {
               transition={{ duration: 0.3 }}
             >
               {[
-                "Inicio",
                 "Nuestra Historia",
-                "Galería",
                 "Playlist",
                 "Nota de Amor",
               ].map((item, index) => (

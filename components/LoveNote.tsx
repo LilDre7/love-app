@@ -8,7 +8,7 @@ const LoveNote = () => {
   return (
     <section
       id="nota-de-amor"
-      className="bg-love-note bg-contain bg-center bg-no-repeat sm:bg-repeat m-6 sm:m-0 py-6 my-10 rounded-t-3xl"
+      className="bg-love-note bg-contain bg-center bg-no-repeat sm:bg-repeat m-6 sm:m-0 py-6 my-10 rounded-3xl"
     >
       <motion.h2
         className="text-4xl md:text-5xl font-display font-bold text-center text-primary pb-8 sm:pb-0"
