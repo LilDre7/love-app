@@ -8,6 +8,7 @@ import WhyILoveYou from "../components/WhyILoveYou";
 import PlaylistButton from "../components/PlaylistButton";
 import LoveNote from "../components/LoveNote";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 export default function Home() {
   const playlistUrl = "https://open.spotify.com/playlist/youractualplaylistid";
@@ -24,6 +25,7 @@ export default function Home() {
         <LoveNote />
       </main>
       <Footer />
+      <Navbar />
     </div>
   );
 }
