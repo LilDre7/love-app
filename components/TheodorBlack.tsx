@@ -8,18 +8,18 @@ export default function TheodorBlack() {
 
       {/* Description Text */}
       <div className="max-w-2xl text-sm leading-relaxed">
-        <p>
+        <p className=" font-sans">
           Especila fue el día en que nos conocimos, y desde entonces, nuestra
           historia de amor ha sido una aventura mágica.
         </p>
-        <p className="mt-4">
+        <p className="mt-4 font-sans">
           Todo comenzó con un encuentro casual, una chispa que se encendió en
           llama. Desde nuestra primera cita tomando café hasta nuestras
           aventuras alrededor del mundo, cada momento contigo ha sido mágico.
           Nuestra historia de amor es una de risas, crecimiento y apoyo
           inquebrantable el uno al otro.
         </p>
-        <p className="mt-4">
+        <p className="mt-4 font-sans">
           A través de los altibajos, hemos crecido juntos, aprendiendo el uno
           del otro y fortaleciendo nuestro vínculo cada día. Cada capítulo de
           nuestra historia es un testimonio del amor verdadero y duradero que
@@ -47,7 +47,7 @@ export default function TheodorBlack() {
         </div>
         <div className="aspect-[3/4] relative">
           <Image
-            src="/image/bg3.Jpg"
+            src="/image/bg3.jpg"
             alt="Portrait photo 3"
             fill
             className="object-contain"

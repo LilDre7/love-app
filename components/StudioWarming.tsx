@@ -30,13 +30,15 @@ export default function StudioWarming() {
       {/* Main Image */}
       <div className="py-16">
         <div className="relative aspect-[4/5] w-full max-w-[600px] mx-auto">
-          <Image
-            src={img}
-            alt="Plant on wooden stand next to a dark couch"
-            fill
-            className="object-cover"
-            priority
-          />
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <Image
+              src={img}
+              alt="Plant on wooden stand next to a dark couch"
+              fill
+              className="object-cover move-up "
+              priority
+            />
+          </a>
         </div>
 
         {/* Footer Information */}

@@ -9,6 +9,7 @@ import TheodorBlack from "@/components/TheodorBlack";
 import CreateMore from "@/components/CreateMore";
 import ServicesPage from "@/components/ServicesPage";
 import HausGuidelines from "@/components/HausGuidelines";
+import Chair from "@/components/Chair";
 
 export default function Home() {
   const playlistUrl = "https://open.spotify.com/playlist/youractualplaylistid";
@@ -22,6 +23,7 @@ export default function Home() {
         <TheodorBlack />
         <CreateMore />
         <ServicesPage />
+        <Chair />
         <PlaylistButton playlistUrl={playlistUrl} />
         <HausGuidelines />
       </main>

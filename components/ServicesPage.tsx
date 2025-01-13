@@ -14,7 +14,7 @@ export default function ServicesPage() {
       <div className="max-w-3xl mx-auto space-y-16">
         {/* Header */}
         <header className="text-center">
-          <p className="text-sm tracking-wider">
+          <p className="text-sm tracking-wider font-sans">
             Por esto eres mi persona favorita
           </p>
         </header>
@@ -22,7 +22,7 @@ export default function ServicesPage() {
         {/* Main Content */}
         <main className="space-y-16">
           {/* Services Title */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light tracking-tight">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light tracking-tight italic font-serif">
             ¿Por Qué Te Amo?
           </h1>
 
@@ -30,7 +30,7 @@ export default function ServicesPage() {
           <div className="space-y-6">
             {services.map((service, index) => (
               <div key={index} className="border-b border-neutral-300 pb-6">
-                <p className="text-sm tracking-wide uppercase">{service}</p>
+                <p className="text-sm tracking-wide uppercase font-sans">{service}</p>
               </div>
             ))}
           </div>
