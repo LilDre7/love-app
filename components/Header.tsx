@@ -65,32 +65,30 @@ const Header = () => {
               variants={menuVariants}
               transition={{ duration: 0.3 }}
             >
-              {[
-                "Nuestra Historia",
-                "Playlist",
-                "Nota de Amor",
-              ].map((item, index) => (
-                <motion.li
-                  key={item}
-                  initial={{ opacity: 0, y: -10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1, duration: 0.5 }}
-                >
-                  <Link
-                    href={`#${item.toLowerCase().replace(" ", "-")}`}
-                    passHref
+              {["Nuestra Historia", "Playlist", "Nota de Amor"].map(
+                (item, index) => (
+                  <motion.li
+                    key={item}
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: index * 0.1, duration: 0.5 }}
                   >
-                    <motion.a
-                      className="block py-2 md:py-0 text-text hover:text-primary transition-colors"
-                      onClick={() => setIsMenuOpen(false)}
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
+                    <Link
+                      href={`#${item.toLowerCase().replace(" ", "-")}`}
+                      passHref
                     >
-                      {item}
-                    </motion.a>
-                  </Link>
-                </motion.li>
-              ))}
+                      <motion.a
+                        className="block py-2 md:py-0 text-text hover:text-primary transition-colors"
+                        onClick={() => setIsMenuOpen(false)}
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                      >
+                        {item}
+                      </motion.a>
+                    </Link>
+                  </motion.li>
+                )
+              )}
             </motion.ul>
           )}
         </AnimatePresence>

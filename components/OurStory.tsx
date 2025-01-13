@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const OurStory = () => {
-  const img = "/image/batmanHug.jpg";
+  const img = "/image/cathug.jpeg";
 
   return (
     <section id="nuestra-historia" className="py-20 bg-white">

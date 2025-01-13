@@ -58,8 +58,8 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-pattern": "url('/image/bg2.jpg')",
-        "why-love": "url('/image/bg7.jpg')",
-        "love-note": "url('/image/bg9.jpg')",
+        "why-love": "url('/image/pop.gif')",
+        "love-note": "url('/image/descarga.gif')",
       },
     },
   },

@@ -1,31 +1,31 @@
 "use client";
 
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import OurStory from "../components/OurStory";
-import WhyILoveYou from "../components/WhyILoveYou";
-// import PhotoGallery from "../components/PhotoGallery";
 import PlaylistButton from "../components/PlaylistButton";
-import LoveNote from "../components/LoveNote";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Poster from "@/components/Poster";
+import TypographicArt from "@/components/ourhistory1";
+import StudioWarming from "@/components/StudioWarming";
+import TheodorBlack from "@/components/TheodorBlack";
+import CreateMore from "@/components/CreateMore";
+import ServicesPage from "@/components/ServicesPage";
+import HausGuidelines from "@/components/HausGuidelines";
 
 export default function Home() {
   const playlistUrl = "https://open.spotify.com/playlist/youractualplaylistid";
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
       <main>
-        <Hero />
-        <OurStory />
-        <WhyILoveYou />
-        {/* <PhotoGallery /> */}
+        <Poster />
+        <TypographicArt />
+        <StudioWarming />
+        <TheodorBlack />
+        <CreateMore />
+        <ServicesPage />
         <PlaylistButton playlistUrl={playlistUrl} />
-        <LoveNote />
+        <HausGuidelines />
       </main>
       <Footer />
-      <Navbar />
     </div>
   );
 }

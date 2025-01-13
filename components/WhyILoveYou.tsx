@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Heart, Star, Sun, Music, Coffee, Book } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Heart, Star, Sun, Music, Coffee, Book } from "lucide-react";
 
 const reasons = [
   { icon: Heart, text: "Tu bondad no conoce límites" },
@@ -12,9 +12,9 @@ const reasons = [
 
 const WhyILoveYou = () => {
   return (
-    <section className="py-20 bg-why-love bg-cover bg-center sm:bg-contain sm:bg-center bg-opacity-10">
+    <section className="py-20 bg-why-love bg-cover bg-end sm:bg-center sm:bg-contain bg-opacity-10">
       <div className="container mx-auto px-6">
-        <motion.h2 
+        <motion.h2
           className="text-4xl md:text-5xl font-display font-bold text-center mb-12 text-primary"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ const WhyILoveYou = () => {
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {reasons.map((reason, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               className="bg-white p-6 rounded-lg shadow-lg flex items-start space-x-4"
               initial={{ opacity: 0, y: 20 }}
@@ -42,4 +42,3 @@ const WhyILoveYou = () => {
 };
 
 export default WhyILoveYou;
-
