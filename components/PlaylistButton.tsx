@@ -15,7 +15,7 @@ const PlaylistButton = () => {
           href={playlistUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center px-6 py-3 overflow-hidden text-white rounded-full text-lg font-mono hover:bg-opacity-90 transition-colors bg-green-500 text-nowrap"
+          className="inline-flex items-center px-4 py-3 overflow-hidden text-white rounded-full text-lg font-mono hover:bg-opacity-90 transition-colors bg-green-500 text-nowrap"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onMouseEnter={() => setShowTooltip(true)}
