@@ -4,7 +4,7 @@ export default function TypographicArt() {
       <div className="max-w-2xl w-full space-y-16">
         {/* Header */}
         <div className="flex justify-between text-sm tracking-wide text-gray-600">
-          <span>be</span>
+          <span className="hidden sm:flex">be</span>
           <div className="flex gap-4">
             <span>Nunca existe la distancia</span>
             <span>¡Te amo, te extraño!</span>

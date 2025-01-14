@@ -39,7 +39,7 @@ export default function ServicesPage() {
         {/* Footer */}
         <footer className="flex justify-between text-sm tracking-wide pt-8">
           <a href="#" className="hover:opacity-70 transition-opacity">
-            © 2024 & 2025
+            © 444 
           </a>
           <a href="#" className="hover:opacity-70 transition-opacity">
             Para mí, tú eres verano todo el año.

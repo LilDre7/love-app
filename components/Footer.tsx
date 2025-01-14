@@ -38,7 +38,7 @@ export default function Footer() {
       </div>
 
       {/* Social Links */}
-      <div className="flex sm:flex justify-between items-center pt-8 text-sm border-t border-white/10">
+      <div className="flex sm:flex justify-between items-center pt-8 text-sm border-t mt-10 sm:mt-0 border-white/10">
         <p className="text-white/60 text-sm text-pretty sm:text-xs tracking-wide uppercase gap-3">
           Que me perdone el tiempo… <br /> ¡pero contigo me quedo toda la vida!
         </p>
