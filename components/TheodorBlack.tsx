@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function TheodorBlack() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12 space-y-8">
+    <div className="max-w-4xl mx-auto px-6 py-12 space-y-8">
       {/* Title */}
       <h1 className="text-6xl md:text-7xl font-serif">Nuestra Historia 🌹</h1>
 
@@ -27,16 +27,16 @@ export default function TheodorBlack() {
       </div>
 
       {/* Images Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-0 my-0">
-        <div className="aspect-[3/3] relative">
+      <div className="grid grid-cols-1 md:grid-cols-3 sm:gap-5 sm:my-10">
+        <div className="aspect-square relative">
           <Image
-            src="/image/bg1.jpg"
+            src="/image/catlistening.jpg"
             alt="Portrait photo 1"
             fill
             className="object-contain"
           />
         </div>
-        <div className="aspect-[3/3] relative">
+        <div className="aspect-square relative">
           <Image
             src="/image/bg2.jpg"
             alt="Portrait photo 2"
@@ -44,7 +44,7 @@ export default function TheodorBlack() {
             className="object-contain"
           />
         </div>
-        <div className="aspect-[3/3] relative">
+        <div className="aspect-square relative">
           <Image
             src="/image/bg3.jpg"
             alt="Portrait photo 3"

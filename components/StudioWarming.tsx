@@ -68,7 +68,7 @@ export default function StudioWarming() {
             </div>
           </div>
 
-          <div className="text-[3vw] sm:text-[10px] tracking-[0.15em] pt-4">
+          <div className="text-[3vw] sm:text-[12px] tracking-[0.15em] pt-4">
             Llevo tu sonrisa como bandera.
           </div>
         </div>

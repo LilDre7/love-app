@@ -10,21 +10,23 @@ import CreateMore from "@/components/CreateMore";
 import ServicesPage from "@/components/ServicesPage";
 import HausGuidelines from "@/components/HausGuidelines";
 import Chair from "@/components/Chair";
+import NaturalRascal from "@/components/Natural";
+import BriefLanding from "@/components/BriefLanding";
 
 export default function Home() {
-  const playlistUrl = "https://open.spotify.com/playlist/youractualplaylistid";
-
   return (
     <div className="min-h-screen flex flex-col">
       <main>
         <Poster />
+        <NaturalRascal />
         <TypographicArt />
         <StudioWarming />
+        <BriefLanding />
         <TheodorBlack />
         <CreateMore />
         <ServicesPage />
         <Chair />
-        <PlaylistButton playlistUrl={playlistUrl} />
+        <PlaylistButton />
         <HausGuidelines />
       </main>
       <Footer />

@@ -4,10 +4,10 @@ export default function Chair() {
   const img = "/image/eyes.jpeg";
 
   return (
-    <div className="relative w-full mx-auto bg-[#e6dfd3] p-4 sm:p-6 md:p-8">
+    <div className="relative w-full mx-auto bg-[#e6dfd3] p-4 sm:p-20 md:p-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 min-h-[600px] md:min-h-[800px]">
         {/* Title */}
-        <h1 className="col-span-1 sm:col-span-2 md:col-span-5 text-3xl sm:text-4xl md:text-5xl font-bold tracking-wider text-red-600 mb-2 md:mb-4 font-serif">
+        <h1 className="col-span-1 sm:col-span-2 md:col-span-5 text-3xl sm:text-4xl md:text-5xl font-bold tracking-wider text-black/70 mb-2 md:mb-4 font-serif">
           UN POCO DE MI
         </h1>
 
@@ -42,21 +42,17 @@ export default function Chair() {
 
         {/* Side text - Hidden on mobile, visible on larger screens */}
         <div className="hidden md:block absolute left-8 bottom-48 -rotate-90 origin-left">
-          <p className="text-red-600 text-sm tracking-wider">
+          <p className="text-black/75 text-sm tracking-wider">
             DISEÑA PARA TI MI AMOR ● 444
           </p>
         </div>
 
         {/* Mobile version of "design legend" - Visible on mobile, hidden on larger screens */}
         <div className="block md:hidden col-span-1 sm:col-span-2">
-          <p className="text-red-600 text-sm tracking-wider mb-4">
+          <p className="text-black/75 text-sm tracking-wider mb-4">
             DISEÑA PARA TI MI AMOR ● 444
           </p>
         </div>
-
-        {/* Red squares - Adjusted for responsive layout */}
-        <div className="hidden md:block absolute left-1/3 top-1/2 w-2 h-2 bg-red-600" />
-        <div className="hidden md:block absolute left-1/2 bottom-1/3 w-2 h-2 bg-red-600" />
 
         {/* Chair image */}
         <div className="col-span-1 sm:col-span-2 md:col-span-5 relative h-64 sm:h-80 md:h-96">
