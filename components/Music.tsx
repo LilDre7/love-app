@@ -32,7 +32,7 @@ const MusicButton: React.FC = () => {
   return (
     <button
       onClick={handleMusicToggle}
-      className={`fixed bottom-5 right-5 px-4 py-2 rounded-full shadow-lg transition-all ${
+      className={`fixed bottom-5 right-5 px-4 py-2 rounded-full shadow-lg transition-all z-50 ${
         isPlaying
           ? "bg-red-500 hover:bg-red-600 text-white"
           : "bg-green-500 hover:bg-green-600 text-white"
