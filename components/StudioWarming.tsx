@@ -30,7 +30,11 @@ export default function StudioWarming() {
       {/* Main Image */}
       <div className="py-16">
         <div className="relative aspect-[4/5] w-full max-w-[600px] mx-auto">
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://midi-thunbergia-e1d.notion.site/Carta-para-Silvana-3942f5e5744a41f688ce4de20c096404?pvs=4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={img}
               alt="Plant on wooden stand next to a dark couch"

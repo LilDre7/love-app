@@ -12,6 +12,8 @@ import HausGuidelines from "@/components/HausGuidelines";
 import Chair from "@/components/Chair";
 import NaturalRascal from "@/components/Natural";
 import BriefLanding from "@/components/BriefLanding";
+import MinimalistLayout from "@/components/Brand";
+import MusicButton from "@/components/Music";
 
 export default function Home() {
   return (
@@ -23,6 +25,7 @@ export default function Home() {
         <StudioWarming />
         <BriefLanding />
         <TheodorBlack />
+        <MinimalistLayout />
         <CreateMore />
         <ServicesPage />
         <Chair />
@@ -30,6 +33,7 @@ export default function Home() {
         <HausGuidelines />
       </main>
       <Footer />
+      <MusicButton />
     </div>
   );
 }
