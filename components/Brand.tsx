@@ -64,8 +64,8 @@ export default function MinimalistLayout() {
                 <div key={i} className="border border-dashed border-gray-300" />
               ))}
             </div>
-            <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-6xl font-serif italic">
-              Sil & Varo
+            <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-6xl font-serif italic text-center">
+              Silvana & Alvaro
             </span>
           </div>
         </div>

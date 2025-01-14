@@ -33,11 +33,9 @@ export default function Chair() {
             enamorado, donde cada línea y cada curva cuentan la historia de un
             amor que desafía el tiempo y el espacio.
           </p>
-          <p className="text-base leading-tight font-serif">
-            Sentarse aquí es como ser envuelto en los brazos de un amante,
-            seguro y amado, donde cada momento se convierte en un recuerdo
-            imborrable de cariño y devoción.
-          </p>
+            <p className="text-base leading-tight font-serif">
+            Sentarse aquí es como ser envuelto en un abrazo eterno, donde cada instante se convierte en un susurro de amor que perdura en el tiempo.
+            </p>
         </div>
 
         {/* Side text - Hidden on mobile, visible on larger screens */}
